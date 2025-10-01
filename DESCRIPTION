@@ -1,0 +1,28 @@
+Package: MetaPhyloTools
+Type: Package
+Title: Tools for Analysing Phylogeographic Patterns from Metabarcoding Data
+Version: 0.1.0
+Author: Adrià Antich
+Maintainer: Adrià Antich <a.antich@ceab.csic.es>
+Description: A collection of tools to process and analyse phylogeographic patterns from metabarcoding data, including functions for data cleaning, phylogenetic analysis, and visualization of results.
+License: GPL-3
+Imports:
+    dplyr,
+    ggplot2,
+    tidyr,
+    phytools,
+    ape,
+    vegan,
+    stringr,
+    readr,
+    purrr,
+    igraph,
+    scatterpie
+Suggests:
+    knitr,
+    rmarkdown,
+    testthat (>= 3.0.0)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.2.3
+VignetteBuilder: knitr
